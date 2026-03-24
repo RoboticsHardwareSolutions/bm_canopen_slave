@@ -1,0 +1,4 @@
+/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/rcan/rcan_filter.c:13:6:rcan_filter_calculate	32	static
+/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/rcan/rcan_filter.c:46:13:are_there_extended_id	24	static
+/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/rcan/rcan_filter.c:58:17:max_id	24	static
+/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/rcan/rcan_filter.c:71:17:min_id	24	static

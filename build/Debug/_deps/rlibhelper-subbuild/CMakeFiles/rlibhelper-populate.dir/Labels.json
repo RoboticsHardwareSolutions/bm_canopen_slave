@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/_deps/rlibhelper-subbuild/CMakeFiles/rlibhelper-populate"
+		},
+		{
+			"file" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/_deps/rlibhelper-subbuild/CMakeFiles/rlibhelper-populate.rule"
+		},
+		{
+			"file" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/_deps/rlibhelper-subbuild/CMakeFiles/rlibhelper-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/_deps/rlibhelper-subbuild/rlibhelper-populate-prefix/src/rlibhelper-populate-stamp/rlibhelper-populate-build.rule"
+		},
+		{
+			"file" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/_deps/rlibhelper-subbuild/rlibhelper-populate-prefix/src/rlibhelper-populate-stamp/rlibhelper-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/_deps/rlibhelper-subbuild/rlibhelper-populate-prefix/src/rlibhelper-populate-stamp/rlibhelper-populate-download.rule"
+		},
+		{
+			"file" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/_deps/rlibhelper-subbuild/rlibhelper-populate-prefix/src/rlibhelper-populate-stamp/rlibhelper-populate-install.rule"
+		},
+		{
+			"file" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/_deps/rlibhelper-subbuild/rlibhelper-populate-prefix/src/rlibhelper-populate-stamp/rlibhelper-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/_deps/rlibhelper-subbuild/rlibhelper-populate-prefix/src/rlibhelper-populate-stamp/rlibhelper-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/_deps/rlibhelper-subbuild/rlibhelper-populate-prefix/src/rlibhelper-populate-stamp/rlibhelper-populate-test.rule"
+		},
+		{
+			"file" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/_deps/rlibhelper-subbuild/rlibhelper-populate-prefix/src/rlibhelper-populate-stamp/rlibhelper-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"rlibhelper-populate"
+		],
+		"name" : "rlibhelper-populate"
+	}
+}

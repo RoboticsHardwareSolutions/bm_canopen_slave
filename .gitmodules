@@ -1,0 +1,12 @@
+[submodule "thirdparty/rtt"]
+	path = thirdparty/rtt
+	url = https://github.com/SEGGERMicro/RTT.git
+[submodule "thirdparty/rcan"]
+	path = thirdparty/rcan
+	url = https://github.com/RoboticsHardwareSolutions/rcan.git
+[submodule "thirdparty/rtimer"]
+	path = thirdparty/rtimer
+	url = https://github.com/RoboticsHardwareSolutions/rtimer.git
+[submodule "thirdparty/co_stack"]
+	path = thirdparty/co_stack
+	url = https://github.com/RoboticsHardwareSolutions/co_stack.git

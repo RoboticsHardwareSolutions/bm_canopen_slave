@@ -1,0 +1,6 @@
+/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/Core/Src/main.c:69:5:main	8	static
+/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/Core/Src/main.c:114:6:SystemClock_Config	72	static
+/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/Core/Src/main.c:154:13:MX_CAN_Init	8	static
+/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/Core/Src/main.c:191:13:MX_TIM4_Init	32	static
+/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/Core/Src/main.c:236:13:MX_GPIO_Init	24	static
+/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/Core/Src/main.c:260:6:Error_Handler	4	static

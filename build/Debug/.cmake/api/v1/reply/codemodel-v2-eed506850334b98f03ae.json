@@ -1,0 +1,287 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Git::Git::@df4b2b1bc7b0b7b501cf",
+					"jsonFile" : "target-Git__Git-Debug-dc5a18afa1906fa66e6c.json",
+					"name" : "Git::Git",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stm32cubemx::@768a070a0fe75716b479",
+					"jsonFile" : "target-stm32cubemx-Debug-5bbd493f48d939609f73.json",
+					"name" : "stm32cubemx",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : "cmake/stm32cubemx",
+					"jsonFile" : "directory-cmake.stm32cubemx-Debug-56097c516e47400ad7a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cmake/stm32cubemx",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "thirdparty",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-thirdparty-Debug-80671ef951e3000fb3fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "thirdparty",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "thirdparty/rcan",
+					"jsonFile" : "directory-thirdparty.rcan-Debug-5150cf8bc1287ea0f449.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "thirdparty/rcan",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "thirdparty/rtimer",
+					"jsonFile" : "directory-thirdparty.rtimer-Debug-dc6733200e054b27eb31.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "thirdparty/rtimer",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "thirdparty/co_stack",
+					"jsonFile" : "directory-thirdparty.co_stack-Debug-0f7b2a3acbddf5658b56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "thirdparty/co_stack",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "bm_lesson_canopen",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "rcan",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "rtimer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "co_stack",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "STM32_Drivers::@768a070a0fe75716b479",
+					"jsonFile" : "target-STM32_Drivers-Debug-22a3a4a92f4e89bbf571.json",
+					"name" : "STM32_Drivers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bm_lesson_canopen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bm_lesson_canopen-Debug-4da49fb1dea1fa745341.json",
+					"name" : "bm_lesson_canopen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "co_stack::@8c6253573c32ecca5b1e",
+					"jsonFile" : "target-co_stack-Debug-29b63fbd05ec81fc6884.json",
+					"name" : "co_stack",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "co_stack_format::@8c6253573c32ecca5b1e",
+					"jsonFile" : "target-co_stack_format-Debug-6d86478b72a7e22b4a47.json",
+					"name" : "co_stack_format",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rcan::@ac96daaf6c6115b8fafa",
+					"jsonFile" : "target-rcan-Debug-3ce6bee2a451453fbad2.json",
+					"name" : "rcan",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rcan_format::@ac96daaf6c6115b8fafa",
+					"jsonFile" : "target-rcan_format-Debug-41b01718c24cd839745e.json",
+					"name" : "rcan_format",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rtimer::@df4b2b1bc7b0b7b501cf",
+					"jsonFile" : "target-rtimer-Debug-23a3ef764f85c897040a.json",
+					"name" : "rtimer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rtimer_format::@df4b2b1bc7b0b7b501cf",
+					"jsonFile" : "target-rtimer_format-Debug-d7a03df228e48cbd9514.json",
+					"name" : "rtimer_format",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rtt::@90d16ed2915c72dcc9c2",
+					"jsonFile" : "target-rtt-Debug-7b6d3571aaa13f9a84ae.json",
+					"name" : "rtt",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug",
+		"source" : "/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

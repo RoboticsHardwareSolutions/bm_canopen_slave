@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/cmake_install.cmake",
+		"/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/cmake/stm32cubemx/cmake_install.cmake",
+		"/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/thirdparty/cmake_install.cmake",
+		"/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/thirdparty/rcan/cmake_install.cmake",
+		"/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/thirdparty/rtimer/cmake_install.cmake",
+		"/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/build/Debug/thirdparty/co_stack/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
