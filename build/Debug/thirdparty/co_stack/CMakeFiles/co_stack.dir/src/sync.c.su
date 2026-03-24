@@ -1,9 +1,0 @@
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/sync.c:36:6:SyncAlarm	16	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/sync.c:51:7:OnCOB_ID_SyncUpdate	16	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/sync.c:64:6:startSYNC	24	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/sync.c:89:6:stopSYNC	16	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/sync.c:103:6:sendSYNCMessage	32	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/sync.c:123:6:sendSYNC	24	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/sync.c:138:6:proceedSYNC	24	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/sync.c:158:28:_post_sync	16	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/sync.c:162:28:_post_TPDO	16	static

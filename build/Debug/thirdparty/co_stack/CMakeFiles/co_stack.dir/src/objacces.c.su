@@ -1,7 +1,0 @@
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/objacces.c:18:7:memcpy_flash	40	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/objacces.c:32:6:accessDictionaryError	24	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/objacces.c:69:7:_getODentry	56	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/objacces.c:175:7:_setODentry	56	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/objacces.c:277:30:scanIndexOD	24	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/objacces.c:282:7:RegisterSetODentryCallBack	40	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/objacces.c:294:7:_storeODSubIndex	16	static

@@ -1,9 +1,0 @@
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/dcf.c:36:20:start_node	16	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/dcf.c:49:6:check_and_start_node	16	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/dcf.c:73:20:start_and_seek_node	24	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/dcf.c:94:13:CheckSDOAndContinue	40	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/dcf.c:166:6:init_consise_dcf	24	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/dcf.c:189:6:get_next_DCF_data	40	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/dcf.c:232:13:write_consise_dcf_next_entry	64	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/dcf.c:255:13:read_consise_dcf_next_entry	48	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/dcf.c:275:6:SaveNode	48	static

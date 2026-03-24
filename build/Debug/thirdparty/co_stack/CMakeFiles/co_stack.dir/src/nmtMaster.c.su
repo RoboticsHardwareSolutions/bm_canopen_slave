@@ -1,3 +1,0 @@
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/nmtMaster.c:29:6:masterSendNMTstateChange	32	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/nmtMaster.c:53:6:masterSendNMTnodeguard	32	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/nmtMaster.c:76:6:masterRequestNodeState	24	static

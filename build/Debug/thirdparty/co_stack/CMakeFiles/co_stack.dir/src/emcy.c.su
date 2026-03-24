@@ -1,8 +1,0 @@
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/emcy.c:34:7:OnNumberOfErrorsUpdate	24	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/emcy.c:56:6:emergencyInit	16	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/emcy.c:68:6:emergencyStop	16	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/emcy.c:82:6:sendEMCY	40	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/emcy.c:112:6:EMCY_setError	32	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/emcy.c:177:6:EMCY_errorRecovered	24	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/emcy.c:220:6:proceedEMCY	40	static
-/Users/paul/Yandex.Disk.localized/Development/Jobs/Bauman/projects/bm_lesson_canopen/thirdparty/co_stack/src/emcy.c:242:6:_post_emcy	16	static
