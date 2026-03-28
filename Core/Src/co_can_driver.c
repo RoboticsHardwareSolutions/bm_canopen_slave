@@ -9,6 +9,7 @@ int canOpen(CAN_PORT port, uint32_t bitrate, CO_Data *d)
 {
     if (port == 0 || d == NULL)
         return 1;
+    d->canHandle = port;
     return rcan_start(&can, (uint32_t)port, bitrate) ? 0 : 1;
 }
 
