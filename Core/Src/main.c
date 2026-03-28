@@ -21,7 +21,10 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "timers_driver.h"
+#include "can_driver.h"
+#include "bm_node.h"
+#include "stdio.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -91,6 +94,15 @@ int main(void)
   MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
 
+  TimerInit();
+  if(canOpen(CAN1, 1000000, &bm_node_Data) != 0)
+  {
+      printf("CAN bus initialization failed\r\n");
+      Error_Handler();
+  }
+
+  setNodeId(&bm_node_Data, 0x10);
+  setState(&bm_node_Data, Initialisation);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -98,7 +110,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    can_loop(CAN1, 1000000, &bm_node_Data);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
