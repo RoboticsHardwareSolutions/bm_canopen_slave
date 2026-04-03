@@ -101,7 +101,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                     UNS32 bm_node_obj1016[]={0};
 
 /* index 0x1017 :   Producer Heartbeat Time. */
-                    UNS16 bm_node_obj1017 = 0x0;	/* 0 */
+                    UNS16 bm_node_obj1017 = 0x3E8;	/* 1000 */
                     ODCallback_t bm_node_Index1017_callbacks[] = 
                      {
                        NULL,

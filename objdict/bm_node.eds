@@ -4,11 +4,11 @@ FileVersion=1
 FileRevision=1
 EDSVersion=4.0
 Description=
-CreationTime=06:35PM
-CreationDate=03-26-2026
+CreationTime=04:35PM
+CreationDate=03-29-2026
 CreatedBy=CANFestival
-ModificationTime=06:35PM
-ModificationDate=03-26-2026
+ModificationTime=04:35PM
+ModificationDate=03-29-2026
 ModifiedBy=CANFestival
 
 [DeviceInfo]
@@ -149,7 +149,7 @@ ParameterName=Producer Heartbeat Time
 ObjectType=0x7
 DataType=0x0006
 AccessType=rw
-DefaultValue=0
+DefaultValue=1000
 PDOMapping=0
 
 [1200]

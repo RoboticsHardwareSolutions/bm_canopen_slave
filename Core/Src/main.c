@@ -59,7 +59,10 @@ static void MX_TIM4_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+void software_rest(CO_Data*)
+{
+  HAL_NVIC_SystemReset();
+}
 /* USER CODE END 0 */
 
 /**
@@ -103,6 +106,8 @@ int main(void)
 
   setNodeId(&bm_node_Data, 0x10);
   setState(&bm_node_Data, Initialisation);
+
+  bm_node_Data.NMT_Slave_Node_Reset_Callback = software_rest;
   /* USER CODE END 2 */
 
   /* Infinite loop */
