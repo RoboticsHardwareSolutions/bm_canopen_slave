@@ -13,6 +13,7 @@
             "executable": "${workspaceFolder}/build/Debug/bm_lesson_canopen.elf",
             // "svdFile": "${workspaceFolder}/STM32F103RE.svd",
             "servertype": "jlink",
+            "serialNumber": "000772440170",
             "interface": "swd",
             "device": "STM32F103RE",
             "gdbPath": "arm-none-eabi-gdb",
