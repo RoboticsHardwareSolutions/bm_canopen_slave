@@ -112,11 +112,19 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  uint32_t last_time = 0;
   while (1)
   {
+    uint32_t current_time = HAL_GetTick();
+    if(current_time - last_time >= 1000)
+    {
+        last_time = current_time;
+        bm_node_counter++;
+        printf("Counter: %ld\r\n", bm_node_counter);
+    }
     /* USER CODE END WHILE */
-    can_loop(CAN1, 1000000, &bm_node_Data);
     /* USER CODE BEGIN 3 */
+    can_loop(CAN1, 1000000, &bm_node_Data);
   }
   /* USER CODE END 3 */
 }

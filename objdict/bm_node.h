@@ -12,5 +12,6 @@ const CONSTSTORE indextable * bm_node_scanIndexOD (UNS16 wIndex, UNS32 * errorCo
 
 /* Master node data struct */
 extern CO_Data bm_node_Data;
+extern UNS32 bm_node_counter;		/* Mapped at index 0x2000, subindex 0x00*/
 
 #endif // BM_NODE_H

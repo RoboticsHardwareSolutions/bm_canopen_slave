@@ -6,6 +6,7 @@
 /**************************************************************************/
 /* Declaration of mapped variables                                        */
 /**************************************************************************/
+UNS32 bm_node_counter = 0x0;		/* Mapped at index 0x2000, subindex 0x00 */
 
 /**************************************************************************/
 /* Declaration of value range types                                       */
@@ -113,10 +114,10 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 /* index 0x1018 :   Identity. */
                     UNS8 bm_node_highestSubIndex_obj1018 = 4; /* number of subindex - 1*/
-                    UNS32 bm_node_obj1018_Vendor_ID = 0x0;	/* 0 */
-                    UNS32 bm_node_obj1018_Product_Code = 0x0;	/* 0 */
-                    UNS32 bm_node_obj1018_Revision_Number = 0x0;	/* 0 */
-                    UNS32 bm_node_obj1018_Serial_Number = 0x0;	/* 0 */
+                    UNS32 bm_node_obj1018_Vendor_ID = 0x3039;	/* 12345 */
+                    UNS32 bm_node_obj1018_Product_Code = 0xA5A5;	/* 42405 */
+                    UNS32 bm_node_obj1018_Revision_Number = 0x1;	/* 1 */
+                    UNS32 bm_node_obj1018_Serial_Number = 0x1;	/* 1 */
                     const CONSTSTORE subindex bm_node_Index1018[] = 
                      {
                        { RO, uint8, sizeof (UNS8), .pObject=&bm_node_highestSubIndex_obj1018 },
@@ -537,6 +538,12 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                        { RW, uint32, sizeof (UNS32), .pObject=&bm_node_obj1A03[7] }
                      };
 
+/* index 0x2000 :   Mapped variable counter */
+                    const CONSTSTORE subindex bm_node_Index2000[] = 
+                     {
+                       { RW, uint32, sizeof (UNS32), .pObject=&bm_node_counter }
+                     };
+
 /**************************************************************************/
 /* Declaration of pointed variables                                       */
 /**************************************************************************/
@@ -565,6 +572,7 @@ const CONSTSTORE indextable bm_node_objdict[] =
   { (const CONSTSTORE subindex* const)bm_node_Index1A01,sizeof(bm_node_Index1A01)/sizeof(bm_node_Index1A01[0]), 0x1A01},
   { (const CONSTSTORE subindex* const)bm_node_Index1A02,sizeof(bm_node_Index1A02)/sizeof(bm_node_Index1A02[0]), 0x1A02},
   { (const CONSTSTORE subindex* const)bm_node_Index1A03,sizeof(bm_node_Index1A03)/sizeof(bm_node_Index1A03[0]), 0x1A03},
+  { (const CONSTSTORE subindex* const)bm_node_Index2000,sizeof(bm_node_Index2000)/sizeof(bm_node_Index2000[0]), 0x2000},
 };
 
 const CONSTSTORE indextable * bm_node_scanIndexOD (UNS16 wIndex, UNS32 * errorCode, ODCallback_t **callbacks)
@@ -594,6 +602,7 @@ const CONSTSTORE indextable * bm_node_scanIndexOD (UNS16 wIndex, UNS32 * errorCo
 		case 0x1A01: i = 19;break;
 		case 0x1A02: i = 20;break;
 		case 0x1A03: i = 21;break;
+		case 0x2000: i = 22;break;
 		default:
 			*errorCode = OD_NO_SUCH_OBJECT;
 			return NULL;

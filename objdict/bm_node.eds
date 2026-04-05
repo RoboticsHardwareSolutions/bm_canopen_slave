@@ -4,19 +4,19 @@ FileVersion=1
 FileRevision=1
 EDSVersion=4.0
 Description=
-CreationTime=04:35PM
-CreationDate=03-29-2026
+CreationTime=02:20PM
+CreationDate=04-05-2026
 CreatedBy=CANFestival
-ModificationTime=04:35PM
-ModificationDate=03-29-2026
+ModificationTime=02:20PM
+ModificationDate=04-05-2026
 ModifiedBy=CANFestival
 
 [DeviceInfo]
 VendorName=CANFestival
-VendorNumber=0x00000000
+VendorNumber=0x00003039
 ProductName=bm_node
-ProductNumber=0x00000000
-RevisionNumber=0x00000000
+ProductNumber=0x0000A5A5
+RevisionNumber=0x00000001
 BaudRate_10=1
 BaudRate_20=1
 BaudRate_50=1
@@ -87,7 +87,7 @@ ParameterName=Vendor ID
 ObjectType=0x7
 DataType=0x0007
 AccessType=ro
-DefaultValue=0
+DefaultValue=12345
 PDOMapping=0
 
 [1018sub2]
@@ -95,7 +95,7 @@ ParameterName=Product Code
 ObjectType=0x7
 DataType=0x0007
 AccessType=ro
-DefaultValue=0
+DefaultValue=42405
 PDOMapping=0
 
 [1018sub3]
@@ -103,7 +103,7 @@ ParameterName=Revision Number
 ObjectType=0x7
 DataType=0x0007
 AccessType=ro
-DefaultValue=0
+DefaultValue=1
 PDOMapping=0
 
 [1018sub4]
@@ -111,7 +111,7 @@ ParameterName=Serial Number
 ObjectType=0x7
 DataType=0x0007
 AccessType=ro
-DefaultValue=0
+DefaultValue=1
 PDOMapping=0
 
 [OptionalObjects]
@@ -1222,4 +1222,13 @@ DefaultValue=0
 PDOMapping=0
 
 [ManufacturerObjects]
-SupportedObjects=0
+SupportedObjects=1
+1=0x2000
+
+[2000]
+ParameterName=counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0
+PDOMapping=1
