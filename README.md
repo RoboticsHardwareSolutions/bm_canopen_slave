@@ -1,0 +1,1 @@
+Demonstration project: CANopen slave node implementation on STM32F103 using the co_stack library
